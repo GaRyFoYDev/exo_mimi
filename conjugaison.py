@@ -243,7 +243,80 @@ conjugaisons = {
         "futur simple": ["je mourrai", "tu mourras", "il/elle/on mourra", "nous mourrons", "vous mourrez", "ils/elles mourront"],
         "conditionnel présent": ["je mourrais", "tu mourrais", "il/elle/on mourrait", "nous mourrions", "vous mourriez", "ils/elles mourraient"],
         "passé simple": ["je mourus", "tu mourus", "il/elle/on mourut", "nous mourûmes", "vous mourûtes", "ils/elles moururent"]
+    },
+    'fuir': {
+    'présent': ['je fuis', 'tu fuis', 'il/elle/on fuit', 'nous fuyons', 'vous fuyez', 'ils/elles fuient'],
+    'passé composé': ['j\'ai fui', 'tu as fui', 'il/elle/on a fui', 'nous avons fui', 'vous avez fui', 'ils/elles ont fui'],
+    'imparfait': ['je fuyais', 'tu fuyais', 'il/elle/on fuyait', 'nous fuyions', 'vous fuyiez', 'ils/elles fuyaient'],
+    'futur simple': ['je fuirai', 'tu fuiras', 'il/elle/on fuira', 'nous fuirons', 'vous fuirez', 'ils/elles fuiront'],
+    'conditionnel présent': ['je fuirais', 'tu fuirais', 'il/elle/on fuirait', 'nous fuirions', 'vous fuiriez', 'ils/elles fuiraient'],
+    'passé simple': ['je fuis', 'tu fuis', 'il/elle/on fuit', 'nous fuîmes', 'vous fuîtes', 'ils/elles fuirent']
+},
+'tenir': {
+    'présent': ['je tiens', 'tu tiens', 'il/elle/on tient', 'nous tenons', 'vous tenez', 'ils/elles tiennent'],
+    'passé composé': ['j\'ai tenu', 'tu as tenu', 'il/elle/on a tenu', 'nous avons tenu', 'vous avez tenu', 'ils/elles ont tenu'],
+    'imparfait': ['je tenais', 'tu tenais', 'il/elle/on tenait', 'nous tenions', 'vous teniez', 'ils/elles tenaient'],
+    'futur simple': ['je tiendrai', 'tu tiendras', 'il/elle/on tiendra', 'nous tiendrons', 'vous tiendrez', 'ils/elles tiendront'],
+    'conditionnel présent': ['je tiendrais', 'tu tiendrais', 'il/elle/on tiendrait', 'nous tiendrions', 'vous tiendriez', 'ils/elles tiendraient'],
+    'passé simple': ['je tins', 'tu tins', 'il/elle/on tint', 'nous tînmes', 'vous tîntes', 'ils/elles tinrent']
+},
+'vaincre': {
+    'présent': ['je vaincs', 'tu vaincs', 'il/elle/on vainc', 'nous vainquons', 'vous vainquez', 'ils/elles vainquent'],
+    'passé composé': ['j\'ai vaincu', 'tu as vaincu', 'il/elle/on a vaincu', 'nous avons vaincu', 'vous avez vaincu', 'ils/elles ont vaincu'],
+    'imparfait': ['je vainquais', 'tu vainquais', 'il/elle/on vainquait', 'nous vainquions', 'vous vainquiez', 'ils/elles vainquaient'],
+    'futur simple': ['je vaincrai', 'tu vaincras', 'il/elle/on vaincra', 'nous vaincrons', 'vous vaincrez', 'ils/elles vaincront'],
+    'conditionnel présent': ['je vaincrais', 'tu vaincrais', 'il/elle/on vaincrait', 'nous vaincrions', 'vous vaincriez', 'ils/elles vaincraient'],
+    'passé simple': ['je vainquis', 'tu vainquis', 'il/elle/on vainquit', 'nous vainquîmes', 'vous vainquîtes', 'ils/elles vainquirent']
+},
+'vêtir': {
+    'présent': ['je vêts', 'tu vêts', 'il/elle/on vêt', 'nous vêtons', 'vous vêtez', 'ils/elles vêtent'],
+    'passé composé': ['j\'ai vêtu', 'tu as vêtu', 'il/elle/on a vêtu', 'nous avons vêtu', 'vous avez vêtu', 'ils/elles ont vêtu'],
+    'imparfait': ['je vêtais', 'tu vêtais', 'il/elle/on vêtait', 'nous vêtions', 'vous vêtiez', 'ils/elles vêtaient'],
+    'futur simple': ['je vêtirai', 'tu vêtiras', 'il/elle/on vêtira', 'nous vêtirons', 'vous vêtirez', 'ils/elles vêtiront'],
+    'conditionnel présent': ['je vêtirais', 'tu vêtirais', 'il/elle/on vêtirait', 'nous vêtirions', 'vous vêtiriez', 'ils/elles vêtiraient'],
+    'passé simple': ['je vêtis', 'tu vêtis', 'il/elle/on vêtit', 'nous vêtîmes', 'vous vêtîtes', 'ils/elles vêtirent']
+},
+'recevoir': {
+    'présent': ['je reçois', 'tu reçois', 'il/elle/on reçoit', 'nous recevons', 'vous recevez', 'ils/elles reçoivent'],
+    'passé composé': ['j\'ai reçu', 'tu as reçu', 'il/elle/on a reçu', 'nous avons reçu', 'vous avez reçu', 'ils/elles ont reçu'],
+    'imparfait': ['je recevais', 'tu recevais', 'il/elle/on recevait', 'nous recevions', 'vous receviez', 'ils/elles recevaient'],
+    'futur simple': ['je recevrai', 'tu recevras', 'il/elle/on recevra', 'nous recevrons', 'vous recevrez', 'ils/elles recevront'],
+    'conditionnel présent': ['je recevrais', 'tu recevrais', 'il/elle/on recevrait', 'nous recevrions', 'vous recevriez', 'ils/elles recevraient'],
+    'passé simple': ['je reçus', 'tu reçus', 'il/elle/on reçut', 'nous reçûmes', 'vous reçûtes', 'ils/elles reçurent']
+},
+'valoir': {
+    'présent': ['je vaux', 'tu vaux', 'il/elle/on vaut', 'nous valons', 'vous valez', 'ils/elles valent'],
+    'passé composé': ['j\'ai valu', 'tu as valu', 'il/elle/on a valu', 'nous avons valu', 'vous avez valu', 'ils/elles ont valu'],
+    'imparfait': ['je valais', 'tu valais', 'il/elle/on valait', 'nous valions', 'vous valiez', 'ils/elles valaient'],
+    'futur simple': ['je vaudrai', 'tu vaudras', 'il/elle/on vaudra', 'nous vaudrons', 'vous vaudrez', 'ils/elles vaudront'],
+    'conditionnel présent': ['je vaudrais', 'tu vaudrais', 'il/elle/on vaudrait', 'nous vaudrions', 'vous vaudriez', 'ils/elles vaudraient'],
+    'passé simple': ['je valus', 'tu valus', 'il/elle/on valut', 'nous valûmes', 'vous valûtes', 'ils/elles valurent']
+},
+'asseoir': {
+    'présent': ['j\'assois', 'tu assois', 'il/elle/on assoit', 'nous assoyons', 'vous assoyez', 'ils/elles assoient'],
+    'passé composé': ['j\'ai assis', 'tu as assis', 'il/elle/on a assis', 'nous avons assis', 'vous avez assis', 'ils/elles ont assis'],
+    'imparfait': ['j\'assoyais', 'tu assoyais', 'il/elle/on assoyait', 'nous assoyions', 'vous assoyiez', 'ils/elles assoyaient'],
+    'futur simple': ['j\'assoirai', 'tu assoiras', 'il/elle/on assoira', 'nous assoirons', 'vous assoirez', 'ils/elles assoiront'],
+    'conditionnel présent': ['j\'assoirais', 'tu assoirais', 'il/elle/on assoirait', 'nous assoirions', 'vous assoiriez', 'ils/elles assoiraient'],
+    'passé simple': ['j\'assus', 'tu assus', 'il/elle/on assut', 'nous assûmes', 'vous assûtes', 'ils/elles assurent']
+},
+'craindre': {
+    'présent': ['je crains', 'tu crains', 'il/elle/on craint', 'nous craignons', 'vous craignez', 'ils/elles craignent'],
+    'passé composé': ['j\'ai craint', 'tu as craint', 'il/elle/on a craint', 'nous avons craint', 'vous avez craint', 'ils/elles ont craint'],
+    'imparfait': ['je craignais', 'tu craignais', 'il/elle/on craignait', 'nous craignions', 'vous craigniez', 'ils/elles craignaient'],
+    'futur simple': ['je craindrai', 'tu craindras', 'il/elle/on craindra', 'nous craindrons', 'vous craindrez', 'ils/elles craindront'],
+    'conditionnel présent': ['je craindrais', 'tu craindrais', 'il/elle/on craindrait', 'nous craindrions', 'vous craindriez', 'ils/elles craindraient'],
+    'passé simple': ['je craignis', 'tu craignis', 'il/elle/on craignit', 'nous craignîmes', 'vous craignîtes', 'ils/elles craignirent']
+},
+'plaire': {
+    'présent': ['je plais', 'tu plais', 'il/elle/on plaît', 'nous plaisons', 'vous plaisez', 'ils/elles plaisent'],
+    'passé composé': ['j\'ai plu', 'tu as plu', 'il/elle/on a plu', 'nous avons plu', 'vous avez plu', 'ils/elles ont plu'],
+    'imparfait': ['je plaisais', 'tu plaisais', 'il/elle/on plaisait', 'nous plaisions', 'vous plaisiez', 'ils/elles plaisaient'],
+    'futur simple': ['je plairai', 'tu plairas', 'il/elle/on plaira', 'nous plairons', 'vous plairez', 'ils/elles plairont'],
+    'conditionnel présent': ['je plairais', 'tu plairais', 'il/elle/on plairait', 'nous plairions', 'vous plairiez', 'ils/elles plairaient'],
+    'passé simple': ['je plus', 'tu plus', 'il/elle/on plut', 'nous plûmes', 'vous plûtes', 'ils/elles plurent']
     }
+
 }
 
 
@@ -252,8 +325,8 @@ verbes = list(conjugaisons.keys())
 # Fonction pour choisir un verbe et un temps au hasard
 
 utilise = set()
-dernier_verbe = None
-dernier_temps = None
+dernier_verbe = []
+dernier_temps = []
 
 
 def choisir_exercice():
@@ -264,17 +337,33 @@ def choisir_exercice():
 
     if len(utilise) == len(combinaisons_possibles):
         utilise = set()
-        dernier_verbe = None
-        dernier_temps = None
+        dernier_verbe = []
+        dernier_temps = []
+    
+ 
+   
+                              
 
     while True:
         verbe = random.choice(verbes)
         temps = random.choice(list(conjugaisons[verbe].keys()))
-        if (verbe, temps) not in utilise and temps != dernier_temps and verbe != dernier_verbe:
+        if len(dernier_verbe) == len(list(conjugaisons.keys())):
+            dernier_verbe = []
+
+        
+        if len(dernier_temps) == len(list(conjugaisons[verbe].keys())):
+            dernier_temps = []
+        
+        
+        if (verbe, temps) not in utilise and temps not in dernier_temps and verbe not in dernier_verbe:
             utilise.add((verbe, temps))
-            dernier_verbe = verbe
-            dernier_temps = temps
+            dernier_verbe.append(verbe)
+            dernier_temps.append(temps)
             return verbe, temps
+        
+       
+        
+        
 
 
 def exercice():
