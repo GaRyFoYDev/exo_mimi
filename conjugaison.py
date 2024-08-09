@@ -251,13 +251,30 @@ verbes = list(conjugaisons.keys())
 
 # Fonction pour choisir un verbe et un temps au hasard
 
+utilise = set()
+dernier_verbe = None
+dernier_temps = None
+
 
 def choisir_exercice():
-    verbe = random.choice(verbes)
-    temps = random.choice(list(conjugaisons[verbe].keys()))
-    return verbe, temps
+    global utilise, dernier_verbe, dernier_temps
 
-# Fonction pour afficher une question et vérifier la réponse
+    combinaisons_possibles = [(verbe, temps)
+                              for verbe in verbes for temps in conjugaisons[verbe]]
+
+    if len(utilise) == len(combinaisons_possibles):
+        utilise = set()
+        dernier_verbe = None
+        dernier_temps = None
+
+    while True:
+        verbe = random.choice(verbes)
+        temps = random.choice(list(conjugaisons[verbe].keys()))
+        if (verbe, temps) not in utilise and temps != dernier_temps and verbe != dernier_verbe:
+            utilise.add((verbe, temps))
+            dernier_verbe = verbe
+            dernier_temps = temps
+            return verbe, temps
 
 
 def exercice():

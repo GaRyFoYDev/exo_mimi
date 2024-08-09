@@ -5,8 +5,8 @@ def jeu_multiplication():
     points = 0
 
     while points < 100:
-        num1 = random.randint(1, 10)
-        num2 = random.randint(1, 10)
+        num1 = random.randint(2, 20)
+        num2 = random.randint(2, 20)
 
         produit = num1 * num2
 
