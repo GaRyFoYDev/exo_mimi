@@ -1,4 +1,7 @@
 import random
+from rich.console import Console
+
+console = Console()
 
 
 def jeu_multiplication():
@@ -11,20 +14,24 @@ def jeu_multiplication():
         produit = num1 * num2
 
         try:
-            reponse = int(input(f"Combien fait {num1} X {num2} ? "))
+            reponse = int(input(f"Combien font {num1} x {num2} ? "))
 
             if reponse == produit:
                 points += 1
-                print(
-                    f"Bonne réponse ! Votre score est maintenant de {points}/100")
+                console.print(
+                    f"Bonne réponse ! Votre score est maintenant de {points}/100", style="bold green")
             else:
-                print(f"Mauvaise réponse")
+                console.print(
+                    f"Mauvaise réponse, la réponse correcte était {produit}", style="bold red")
 
         except ValueError:
-            print("Veuillez entrer un nombre valide.")
+            console.print("Veuillez entrer un nombre valide.",
+                          style="bold yellow")
 
-    print("Félicitations ! Vous avez atteint 100 points.")
+    console.print("Félicitations ! Vous avez atteint 100 points.",
+                  style="bold purple")
 
 
 # Démarrer le jeu
 jeu_multiplication()
+
