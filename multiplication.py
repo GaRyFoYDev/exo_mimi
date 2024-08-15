@@ -22,18 +22,18 @@ def jeu_multiplication():
                 console.print(
                     f"Bonne réponse ! Votre score est maintenant de {points}/100", style="bold green")
                 sleep(1)
-                console.clear()
+                subprocess.run(["powershell", "-Command", "Clear-Host"])
             else:
                 console.print(
                     f"Mauvaise réponse, la réponse correcte était {produit}", style="bold red")
                 sleep(1)
-                console.clear()
+                subprocess.run(["powershell", "-Command", "Clear-Host"])
 
         except ValueError:
             console.print("Veuillez entrer un nombre valide.",
                           style="bold yellow")
             sleep(1)
-            console.clear()
+            subprocess.run(["powershell", "-Command", "Clear-Host"])
 
     console.print("Félicitations ! Vous avez atteint 100 points.",
                   style="bold purple")
