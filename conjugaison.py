@@ -8,7 +8,7 @@ import subprocess
 console = Console()
 
 # Charger les conjugaisons à partir du fichier JSON
-with open('conjugaison.json', 'r') as f:
+with open('conjugaison.json', 'r',encoding='utf-8') as f:
     conjugaisons = json.load(f)
 
 verbes = list(conjugaisons.keys())
