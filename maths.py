@@ -19,17 +19,20 @@ def jeu_maths():
     while points < objectif:
         # Générer les nombres jusqu'à ce qu'aucun ne soit un multiple de 10
         while True:
-            num1 = random.randint(2, 100)
-            num2 = random.randint(2, 100)
+            num1 = random.randint(2, 20)
+            num2 = random.randint(2, 20)
             if num1 % 10 != 0 and num2 % 10 != 0:
                 break
 
         operation = random.choice(['+', '-', 'x'])
 
-        if operation == '+':
-            resultat = num1 + num2
-        elif operation == '-':
+        if operation == '-':
+            # S'assurer que num1 est supérieur à num2 pour la soustraction
+            if num1 < num2:
+                num1, num2 = num2, num1
             resultat = num1 - num2
+        elif operation == '+':
+            resultat = num1 + num2
         else:  # operation == 'x'
             resultat = num1 * num2
 
